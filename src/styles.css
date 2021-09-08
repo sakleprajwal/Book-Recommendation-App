@@ -1,0 +1,53 @@
+.bookRecommendation-section {
+  font-family: "Lexend Peta", sans-serif;
+  text-align: center;
+  --tw-bg-opacity: 0.7;
+  background-color: rgba(167, 243, 208, var(--tw-bg-opacity));
+  margin: auto;
+  margin-top: 10%;
+  padding: 2rem;
+  width: 90%;
+  max-width: 60rem;
+  border-radius: 2rem;
+  padding-top: 1rem;
+}
+
+body {
+  background-image: url("library-bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  font-size: 2rem;
+  letter-spacing: -0.2rem;
+}
+
+.book-button {
+  font-family: "Hind", sans-serif;
+  --tw-bg-opacity: 0.7;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+  padding: 1rem;
+  /* width: 20%; */
+  /* min-width: 8rem; */
+  border-radius: 3rem;
+  border: 1px solid grey;
+  margin: 0 0.5rem 0 0.5rem;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.book-button:hover {
+  opacity: 0.8;
+}
+
+.bookName {
+  list-style: none;
+  border: 2px solid grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
